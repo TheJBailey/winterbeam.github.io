@@ -1,0 +1,55 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "Montserrat";
+	color: #1B2432;
+}
+
+body {
+	background: #121420;
+}
+
+header {
+	
+	width: 100vw;
+}
+
+#genre {
+	padding: 15px;
+	background: #1B2432;
+	white-space: nowrap;
+}
+
+.switch {
+	display: inline-block;
+	margin-right: 15px;
+	white-space: normal;
+}
+
+.switch input {display:none;}
+
+.genre-bg {
+  cursor: pointer;
+  background-color: #ccc;
+  padding: 5px 14px;
+  border-radius: 15px;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+input.genre-toggle:checked + .genre-bg {
+  background-color: #2196F3;
+}
+
+#gamelist {
+	display: flex;
+	flex-flow: wrap;
+	justify-content: space-around;
+	align-items: center;
+}
+#gamelist .thumbnail {
+	margin: 15px;
+	width: 300px;
+	height: 250px;
+	background: #B76D68;
+}

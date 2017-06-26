@@ -1,42 +1,48 @@
 <html>
+
 <head>
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/modules.css">
+  <link rel="stylesheet" type="text/css" href="css/hover.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
   <title>Winterbeam</title>
-  <style> 
-    * {
-      margin: 0;
-      padding: 0;
-      font-family:'Montserrat',sans-serif;
-    }
-    
-    body {
-      width:100vw;
-      height:100vh;
-      background:#264653;
-      display: flex;
-      align-items:center;
-      justify-content: center;
-      flex-direction:column;
-    }
-    
-  	section {
-	  width:50%;
-  	}
-  
-    h1 {
-      color: #E76F51;
-      font-size:2em;
-    }
-    
-    h6 {
-      color: #2A9D8F;
-    }
-  </style>
 </head>
+
 <body>
+  <header>
+    <div id="genre">
+      <label class='switch ns'><input class="genre-toggle" type="checkbox"><div class='genre-bg'>action</div></label>
+      <label class='switch ns'><input class="genre-toggle" type="checkbox"><div class='genre-bg'>adventure</div></label>
+      <label class='switch ns'><input class="genre-toggle" type="checkbox"><div class='genre-bg'>shooter</div></label>
+      <label class='switch ns'><input class="genre-toggle" type="checkbox"><div class='genre-bg'>arcade</div></label>
+      <label class='switch ns'><input class="genre-toggle" type="checkbox"><div class='genre-bg'>fighting</div></label>
+      <label class='switch ns'><input class="genre-toggle" type="checkbox"><div class='genre-bg'>platformer</div></label>
+      <label class='switch ns'><input class="genre-toggle" type="checkbox"><div class='genre-bg'>retro</div></label>
+      <label class='switch ns'><input class="genre-toggle" type="checkbox"><div class='genre-bg'>rpg</div></label>
+      <label class='switch ns'><input class="genre-toggle" type="checkbox"><div class='genre-bg'>single-player</div></label>
+      <label class='switch ns'><input class="genre-toggle" type="checkbox"><div class='genre-bg'>multi-player</div></label>
+    </div>
+  </header>
+  
   <section>
-    <h1>Coming Soon...</h1>
-    <h6>chilly</h6>
+    <div id="gamelist">
+      <div class="thumbnail"></div>
+      <div class="thumbnail"></div>
+      <div class="thumbnail"></div>
+      <div class="thumbnail"></div>
+      <div class="thumbnail"></div>
+      <div class="thumbnail"></div>
+      <div class="thumbnail"></div>
+      <div class="thumbnail"></div>
+      <div class="thumbnail"></div>
+      <div class="thumbnail"></div>
+      <div class="thumbnail"></div>
+    </div>
   </section>
+  
+  <footer>
+    
+  </footer>
 </body>
+
 </html>
