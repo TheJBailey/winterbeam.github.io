@@ -1,2 +1,2 @@
 # winterbeam.github.io
-non-seasonal, and unreasonable
+non-seasonal and unreasonable
