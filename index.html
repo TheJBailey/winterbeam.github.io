@@ -3,46 +3,20 @@
 <head>
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/modules.css">
-  <link rel="stylesheet" type="text/css" href="css/hover.css">
   <link rel="stylesheet" type="text/css" href="css/main.css">
   <title>Winterbeam</title>
 </head>
 
-<body>
-  <header>
-    <div id="genre">
-      <label class='switch ns'><input class="genre-toggle" type="checkbox"><div class='genre-bg'>action</div></label>
-      <label class='switch ns'><input class="genre-toggle" type="checkbox"><div class='genre-bg'>adventure</div></label>
-      <label class='switch ns'><input class="genre-toggle" type="checkbox"><div class='genre-bg'>shooter</div></label>
-      <label class='switch ns'><input class="genre-toggle" type="checkbox"><div class='genre-bg'>arcade</div></label>
-      <label class='switch ns'><input class="genre-toggle" type="checkbox"><div class='genre-bg'>fighting</div></label>
-      <label class='switch ns'><input class="genre-toggle" type="checkbox"><div class='genre-bg'>platformer</div></label>
-      <label class='switch ns'><input class="genre-toggle" type="checkbox"><div class='genre-bg'>retro</div></label>
-      <label class='switch ns'><input class="genre-toggle" type="checkbox"><div class='genre-bg'>rpg</div></label>
-      <label class='switch ns'><input class="genre-toggle" type="checkbox"><div class='genre-bg'>single-player</div></label>
-      <label class='switch ns'><input class="genre-toggle" type="checkbox"><div class='genre-bg'>multi-player</div></label>
+<body onresize="resize()">
+  <canvas id='coldwater'> </canvas>
+
+  <div id="conu">
+    <span id='namu'>Winterbeam</span>
+    <div id="subu">
+      <span>non-seasonal and unreasonable</span>
     </div>
-  </header>
-  
-  <section>
-    <div id="gamelist">
-      <div class="thumbnail"></div>
-      <div class="thumbnail"></div>
-      <div class="thumbnail"></div>
-      <div class="thumbnail"></div>
-      <div class="thumbnail"></div>
-      <div class="thumbnail"></div>
-      <div class="thumbnail"></div>
-      <div class="thumbnail"></div>
-      <div class="thumbnail"></div>
-      <div class="thumbnail"></div>
-      <div class="thumbnail"></div>
-    </div>
-  </section>
-  
-  <footer>
-    
-  </footer>
+  </div>
+  <script src="js/coldwater.js"></script>
 </body>
 
 </html>
